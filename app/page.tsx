@@ -12,7 +12,7 @@ import { ClipboardIcon, FileIcon, CodeIcon } from "@/components/icons"
 export default function Home() {
   return (
     <>
-      <section className="flex items-center justify-center gap-4 mt-[60px] py-10 md:py-10">
+      <section className="flex flex-col lg:flex-row items-center justify-center gap-4 lg:mt-[60px] lg:py-10">
         <div className="inline-block max-w-xl justify-center">
           <span className={title({ size: "lg" })}>Hello, I'm&nbsp;</span>
           <span className={title({ color: "blue", size: "lg" })}>@mealet&nbsp;</span> <br />
@@ -22,10 +22,12 @@ export default function Home() {
           </div>
 
           <div className="flex gap-3 mt-5">
-            <Button color="primary" className="text-white text-lg">See my projects</Button>         
-            <Button color="primary" variant="ghost" className="text-lg">
-              Contact Me
-            </Button>  
+            <a href="/projects"><Button color="primary" className="text-white text-lg">See my projects</Button></a>
+            <a href="/about">
+              <Button color="primary" variant="ghost" className="text-lg">
+                About
+              </Button>
+            </a>
           </div>
 
         </div>
@@ -36,11 +38,9 @@ export default function Home() {
       </section>
 
       <br/>
-      <br/>
-      <br/>
       
       <section className="flex flex-col items-center justify-center gap-4 py-10 md:py-10">
-        <div className="flex gap-5">
+        <div className="flex flex-col lg:flex-row gap-5">
           <Card className="max-w-[330px] p-1">
             <CardBody>
               <div class="flex gap-2">
@@ -79,9 +79,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex gap-4 justify-center items-center py-10 md:py-10">
-        <AboutCards></AboutCards>
-      </section>
+      {/* <section className="flex gap-4 justify-center items-center py-10 md:py-10"> */}
+      {/*   <AboutCards></AboutCards> */}
+      {/* </section> */}
     </>
   );
 }
