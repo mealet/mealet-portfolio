@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import {
   Navbar as NextUINavbar,
@@ -7,30 +7,28 @@ import {
   NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
-  NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
+import React from "react";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  RedditIcon,
-  GithubIcon,
-  DiscordIcon,
-  Logo,
-} from "@/components/icons";
-
-import React from "react";
+import { RedditIcon, GithubIcon, DiscordIcon, Logo } from "@/components/icons";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+    <NextUINavbar
+      isBordered
+      isMenuOpen={isMenuOpen}
+      maxWidth="xl"
+      position="sticky"
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -59,20 +57,20 @@ export const Navbar = () => {
       {/* Mobile Menu */}
 
       <NavbarMenu>
-          {siteConfig.navItems.map((item) => (
-            <NavbarItem key={item.href} className="font-bold">
-              <NextLink
-                className={clsx(
-                  linkStyles({ color: "foreground" }),
-                  "data-[active=true]:text-primary data-[active=true]:font-medium",
-                )}
-                color="foreground"
-                href={item.href}
-              >
-                {item.label}
-              </NextLink>
-            </NavbarItem>
-          ))}
+        {siteConfig.navItems.map((item) => (
+          <NavbarItem key={item.href} className="font-bold">
+            <NextLink
+              className={clsx(
+                linkStyles({ color: "foreground" }),
+                "data-[active=true]:text-primary data-[active=true]:font-medium",
+              )}
+              color="foreground"
+              href={item.href}
+            >
+              {item.label}
+            </NextLink>
+          </NavbarItem>
+        ))}
       </NavbarMenu>
 
       {/*  */}

@@ -37,10 +37,11 @@ export const siteConfig = {
     {
       label: "Contacts",
       href: "/contacts",
-    },  ],
+    },
+  ],
   links: {
     github: "https://github.com/mealet",
     discord: "https://discord.com/users/526367373473742858",
-    reddit: "https://www.reddit.com/user/mealet/"
+    reddit: "https://www.reddit.com/user/mealet/",
   },
 };

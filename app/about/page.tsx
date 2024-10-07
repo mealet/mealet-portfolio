@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import {Accordion, AccordionItem} from "@nextui-org/accordion";
-import {Link} from "@nextui-org/link";
+import { Accordion, AccordionItem } from "@nextui-org/accordion";
+import { Link } from "@nextui-org/link";
 
 export default function About() {
   const birthdayYear = 2009;
@@ -12,29 +12,54 @@ export default function About() {
     <section>
       <div className="pb-4">
         <h1 className="font-semibold text-3xl pl-3">About Me</h1>
-        
-        <br/>
+
+        <br />
 
         <div>
           <Accordion variant="splitted">
             <AccordionItem key="1" aria-label="Who Am I" title="Who Am I">
               <p>
-                My name is <strong>Damir</strong>, and I'm {age} years Russian developer 👋<br/>
-                I've started learning programming in 9 years and tried a lot of IT fields. <br/>
-                First my projects was simple web pages, after that all my time was taken by <Link isExternal href="https://python.org" showAnchorIcon>Python</Link> (telegram & discord bots mainly). <br/>
-                In January 2024 I've started learning <Link isExternal href="https://www.rust-lang.org" showAnchorIcon>Rust</Link> and did some interesting project on it.
+                My name is <strong>Damir</strong>, and I&apos;m {age} years
+                Russian developer 👋
+                <br />
+                I&apos;ve started learning programming in 9 years and tried a
+                lot of IT fields. <br />
+                First my projects was simple web pages, after that all my time
+                was taken by{" "}
+                <Link isExternal showAnchorIcon href="https://python.org">
+                  Python
+                </Link>{" "}
+                (telegram & discord bots mainly). <br />
+                In January 2024 I&apos;ve started learning{" "}
+                <Link
+                  isExternal
+                  showAnchorIcon
+                  href="https://www.rust-lang.org"
+                >
+                  Rust
+                </Link>{" "}
+                and did some interesting project on it.
               </p>
             </AccordionItem>
             <AccordionItem key="2" aria-label="Tools I Use" title="Tools I Use">
               <p>
-                <span className="font-semibold text-lg">OS:</span> Arch Linux <br/>
-                <span className="font-semibold text-lg">Desktop Enviroment:</span> GNOME 47 <br/>
-                <span className="font-semibold text-lg">Code Editor:</span> Neovim <br/>
-                <span className="font-semibold text-lg">VCS:</span> Git <br/>
+                <span className="font-semibold text-lg">OS:</span> Arch Linux{" "}
+                <br />
+                <span className="font-semibold text-lg">
+                  Desktop Enviroment:
+                </span>{" "}
+                GNOME 47 <br />
+                <span className="font-semibold text-lg">Code Editor:</span>{" "}
+                Neovim <br />
+                <span className="font-semibold text-lg">VCS:</span> Git <br />
               </p>
             </AccordionItem>
 
-            <AccordionItem key="3" aria-label="Main Languages" title="Main Languages">
+            <AccordionItem
+              key="3"
+              aria-label="Main Languages"
+              title="Main Languages"
+            >
               <p>
                 <ul>
                   <li>- Rust</li>
@@ -44,7 +69,11 @@ export default function About() {
               </p>
             </AccordionItem>
 
-            <AccordionItem key="4" aria-label="Frameworks I Use" title="Favourite Frameworks">
+            <AccordionItem
+              key="4"
+              aria-label="Frameworks I Use"
+              title="Favourite Frameworks"
+            >
               <p>
                 <ul>
                   <li>- Tauri</li>
@@ -57,5 +86,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }
