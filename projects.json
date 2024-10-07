@@ -1,0 +1,32 @@
+[
+  {
+    "name": "mul0",
+    "description": "Pet-project hashing algorithm",
+    "link": "https://github.com/mealet/mul0"
+  },
+  {
+    "name": "tpl-lang",
+    "description": "LLVM Based compiling language written in Rust",
+    "link": "https://github.com/mealet/tpl-lang"
+  },
+  {
+    "name": "hiw-lang",
+    "description": "Simple compiler based on tutorial",
+    "link": "https://github.com/mealet/hiw-lang"
+  },
+  {
+    "name": "semga",
+    "description": "String Encryption Method in GUI Interface",
+    "link": "https://github.com/mealet/hiw-lang"
+  },
+  {
+    "name": "rust-converter",
+    "description": "GUI file converter based on Tauri Framework",
+    "link": "https://github.com/mealet/rust-converter"
+  },
+  {
+    "name": "nextcord-bot",
+    "description": "Python Discord Bot with configuration",
+    "link": "https://github.com/mealet/nextcord-bot"
+  }
+]

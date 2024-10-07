@@ -67,7 +67,7 @@ export default function Home() {
 
           <Card className="max-w-[330px] p-1">
             <CardBody>
-              <div class="flex gap-3">
+              <div className="flex gap-3">
                 <CodeIcon size={33} className="mt-1" />              
                 <p className="text-[1.8rem] font-bold">Open Source</p>
               </div>

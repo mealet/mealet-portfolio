@@ -27,10 +27,10 @@ export default function About() {
             </AccordionItem>
             <AccordionItem key="2" aria-label="Tools I Use" title="Tools I Use">
               <p>
-                <span class="font-semibold text-lg">OS:</span> Arch Linux <br/>
-                <span class="font-semibold text-lg">Desktop Enviroment:</span> GNOME 47 <br/>
-                <span class="font-semibold text-lg">Code Editor:</span> Neovim <br/>
-                <span class="font-semibold text-lg">VCS:</span> Git <br/>
+                <span className="font-semibold text-lg">OS:</span> Arch Linux <br/>
+                <span className="font-semibold text-lg">Desktop Enviroment:</span> GNOME 47 <br/>
+                <span className="font-semibold text-lg">Code Editor:</span> Neovim <br/>
+                <span className="font-semibold text-lg">VCS:</span> Git <br/>
               </p>
             </AccordionItem>
 
