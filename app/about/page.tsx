@@ -17,7 +17,7 @@ export default function About() {
 
         <div>
           <Accordion variant="splitted">
-            <AccordionItem key="1" aria-label="Who Am I" title="Who Am I">
+            <AccordionItem key="1" aria-label="Who Am I" title="👀 Who Am I">
               <p>
                 My name is <strong>Damir</strong>, and I&apos;m {age} years
                 Russian developer 👋
@@ -41,7 +41,7 @@ export default function About() {
                 and did some interesting project on it.
               </p>
             </AccordionItem>
-            <AccordionItem key="2" aria-label="Tools I Use" title="Tools I Use">
+            <AccordionItem key="2" aria-label="Tools I Use" title="💡 Tools I Use">
               <p>
                 <span className="font-semibold text-lg">OS:</span> Arch Linux{" "}
                 <br />
@@ -58,7 +58,7 @@ export default function About() {
             <AccordionItem
               key="3"
               aria-label="Main Languages"
-              title="Main Languages"
+              title="💼 Main Languages"
             >
               <p>
                 <ul>
@@ -72,7 +72,7 @@ export default function About() {
             <AccordionItem
               key="4"
               aria-label="Frameworks I Use"
-              title="Favourite Frameworks"
+              title="🔑 Favourite Frameworks"
             >
               <p>
                 <ul>
