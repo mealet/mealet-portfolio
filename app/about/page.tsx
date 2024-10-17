@@ -17,7 +17,7 @@ export default function About() {
 
         <div>
           <Accordion variant="splitted">
-            <AccordionItem key="1" aria-label="Who Am I" title="👀 Who Am I">
+            <AccordionItem key="1" aria-label="Who Am I" title="📌 Who Am I">
               <p>
                 My name is <strong>Damir</strong>, and I&apos;m {age} years
                 Russian developer 👋
