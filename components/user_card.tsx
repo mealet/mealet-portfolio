@@ -1,9 +1,12 @@
+"use client";
+
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
 import { Divider } from "@nextui-org/divider";
 import parse from "html-react-parser";
 
 export default function UserCard() {
+  // Constants
   const avatar_link =
     "https://avatars.githubusercontent.com/u/110933288?s=400&u=a2c5fd751318efea89ffcc6c5eedd2b37c10d288&v=4";
   const citates = [
@@ -14,6 +17,8 @@ export default function UserCard() {
     "<strong>Open source</strong> code allows you to completely open your creation to the world, no matter how bad it is",
     "<strong>If you</strong> don't know, find out, otherwise don't even try",
   ];
+
+  // Getting random citate
 
   let citate = citates[Math.floor(Math.random() * citates.length)];
 
