@@ -48,7 +48,7 @@ export default function About() {
                 <span className="font-semibold text-lg">
                   Desktop Enviroment:
                 </span>{" "}
-                GNOME 47 <br />
+                Hyprland <br />
                 <span className="font-semibold text-lg">Code Editor:</span>{" "}
                 Neovim <br />
                 <span className="font-semibold text-lg">VCS:</span> Git <br />
