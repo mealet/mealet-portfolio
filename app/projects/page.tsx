@@ -30,26 +30,26 @@ export default function Projects() {
   if (!data) return <p>No data</p>;
 
   return (
-    <section className="flex flex-col gap-5 max-w-[1200px] sm:justify-center sm:text-center md:justify-start md:text-left pb-5">
+    <section className="flex flex-col gap-5 justify-center text-center md:justify-start md:text-left pb-5">
       <h1 className="text-3xl font-bold md:pl-1">
         Projects <br />
         <p className="text-lg font-normal text-default-500">Click to visit</p>
       </h1>
-      <div className="grid justify-center md:grid-cols-2 xl:grid-cols-3 gap-y-10">
+      <div className="sm:inline-flex sm:flex-col md:grid gap-3 lg:grid-cols-3 md:grid-cols-2">
         {data.map((project) => (
           <Link
             key={project.name}
             className="hover:scale-[102%] transition-all ease-in-out duration-300"
             href={project.link}
           >
-            <Card className="w-[350px] h-[200px] p-2">
+            <Card className="w-[100%]">
               <CardHeader className="flex gap-3">
                 <p className="text-2xl font-semibold">{project.name}</p>
               </CardHeader>
 
               <Divider />
 
-              <CardBody>
+              <CardBody className="p-5 h-[9rem]">
                 <p className="font-light text-lg">{project.description}</p>
               </CardBody>
             </Card>

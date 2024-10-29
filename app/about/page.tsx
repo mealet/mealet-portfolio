@@ -60,13 +60,11 @@ export default function About() {
               aria-label="Main Languages"
               title="💼 Main Languages"
             >
-              <p>
-                <ul>
-                  <li>- Rust</li>
-                  <li>- Javascript/Typescript</li>
-                  <li>- Python</li>
-                </ul>
-              </p>
+              <ul>
+                <li>- Rust</li>
+                <li>- Javascript/Typescript</li>
+                <li>- Python</li>
+              </ul>
             </AccordionItem>
 
             <AccordionItem
