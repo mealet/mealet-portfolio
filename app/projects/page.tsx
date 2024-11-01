@@ -39,7 +39,7 @@ export default function Projects() {
         {data.map((project) => (
           <Link
             key={project.name}
-            className="hover:scale-[102%] transition-all ease-in-out duration-300 sm:mb-2 md:mb-0"
+            className="hover:scale-[102%] transition-all ease-in-out duration-300 mb-2 md:mb-0"
             href={project.link}
           >
             <Card className="w-[100%]">
