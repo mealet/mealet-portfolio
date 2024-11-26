@@ -1,13 +1,13 @@
 [
   {
-    "name": "mul0",
-    "description": "Pet-project hashing algorithm which provides multiplying bytes by 'key-byte'",
-    "link": "https://github.com/mealet/mul0"
-  },
-  {
     "name": "tpl-lang",
     "description": "LLVM Based static typed compiling programming language written in Rust",
     "link": "https://github.com/mealet/tpl-lang"
+  },
+  {
+    "name": "mul0",
+    "description": "Pet-project hashing algorithm which provides multiplying bytes by 'key-byte'",
+    "link": "https://github.com/mealet/mul0"
   },
   {
     "name": "hiw-lang",
