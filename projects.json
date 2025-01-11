@@ -1,7 +1,12 @@
 [
   {
+    "name": "mul0",
+    "description": "Pet-project encryption algorithm 🔑",
+    "link": "https://github.com/mealet/mul0"
+  },
+  {
     "name": "tpl-lang",
-    "description": "LLVM Based static typed compiling programming language written in Rust",
+    "description": "Static typed compiler written in Rust 🦀",
     "link": "https://github.com/mealet/tpl-lang"
   },
   {
@@ -11,22 +16,22 @@
   },
   {
     "name": "hiw-lang",
-    "description": "Simple self VM based compiler created by tutorial",
+    "description": "Simple compiler on self-based virtual machine ⚙️",
     "link": "https://github.com/mealet/hiw-lang"
   },
   {
     "name": "semga",
-    "description": "String Encryption Method in GUI Interface on Tauri",
+    "description": "String encryption algorithm with General User Interface 🔗",
     "link": "https://github.com/mealet/hiw-lang"
   },
   {
     "name": "rust-converter",
-    "description": "GUI file converter which uses ffmpeg. UI Based on Tauri Framework",
+    "description": "Pet-project file converter with GUI 🎓",
     "link": "https://github.com/mealet/rust-converter"
   },
   {
     "name": "nextcord-bot",
-    "description": "Python Discord Bot with configuration based on nextcord library",
+    "description": "Simple configurable Discord bot on Python 🐍",
     "link": "https://github.com/mealet/nextcord-bot"
   }
 ]

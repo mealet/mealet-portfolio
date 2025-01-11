@@ -16,7 +16,7 @@ export default function Home() {
           </span>{" "}
           <br />
           <div className={subtitle({ class: "mt-4" })}>
-            Software & Web Developer
+            Software Developer
           </div>
           <div className="flex gap-3 mt-5">
             <a href="/projects">
