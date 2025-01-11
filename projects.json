@@ -31,7 +31,7 @@
   },
   {
     "name": "nextcord-bot",
-    "description": "Simple configurable Discord bot on Python 🐍",
+    "description": "Simple configurable Discord bot 🐍",
     "link": "https://github.com/mealet/nextcord-bot"
   }
 ]
