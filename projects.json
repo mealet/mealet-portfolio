@@ -1,13 +1,18 @@
 [
   {
-    "name": "mul0",
-    "description": "Pet-project encryption algorithm 🔑",
-    "link": "https://github.com/mealet/mul0"
-  },
-  {
     "name": "tpl-lang",
     "description": "Static typed compiler written in Rust 🦀",
     "link": "https://tpl-lang.vercel.app/"
+  },
+  {
+    "name": "todo-api",
+    "description": "Basic TODO API on Rocket framework 🚀",
+    "link": "https://github.com/mealet/todo_api.rs"
+  },
+  {
+    "name": "mul0",
+    "description": "Pet-project encryption algorithm 🔑",
+    "link": "https://github.com/mealet/mul0"
   },
   {
     "name": "mul0",
