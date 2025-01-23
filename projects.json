@@ -15,11 +15,6 @@
     "link": "https://github.com/mealet/mul0"
   },
   {
-    "name": "mul0",
-    "description": "Pet-project hashing algorithm which provides multiplying bytes by 'key-byte'",
-    "link": "https://github.com/mealet/mul0"
-  },
-  {
     "name": "hiw-lang",
     "description": "Simple compiler on self-based virtual machine ⚙️",
     "link": "https://github.com/mealet/hiw-lang"
