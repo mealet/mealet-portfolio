@@ -7,7 +7,7 @@
   {
     "name": "tpl-lang",
     "description": "Static typed compiler written in Rust 🦀",
-    "link": "https://github.com/mealet/tpl-lang"
+    "link": "https://tpl-lang.vercel.app/"
   },
   {
     "name": "mul0",
